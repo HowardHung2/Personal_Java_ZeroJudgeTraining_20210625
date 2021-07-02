@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class a004 {
     public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in) ;
+		/*Scanner sc = new Scanner(System.in) ;
 		//閏年條件(二擇一成立) : 可被400整除；可被4整除但不可被100整除
 		int year1 = sc.nextInt() ;
 		int year2 = sc.nextInt() ;
@@ -30,6 +30,12 @@ public class a004 {
 			reult2 = "平年" ;
 		}
                 
-		System.out.printf("%s\n%s",reult1, reult2) ;
+		System.out.printf("%s\n%s",reult1, reult2) ;*/
+                
+                Scanner sc = new Scanner(System.in);
+                while (sc.hasNext()) {
+           
+            
+        }
 	}
 }
