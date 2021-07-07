@@ -1,20 +1,23 @@
 package a;
 
 /*
-    Saved DATE: 06/27
+    Saved DATE: 07/08
     @Author: BingRongHung
     URL https://zerojudge.tw/ShowProblem?problemid=a004
-    TestResult: WA
+    TestResult: AC
     Hint: https://zerojudge.tw/ShowThread?postid=22083&reply=0
-*/
+    Note: EOF表示結束輸入(最終資料), 可透過 Scanner 的 hasnext 測試有無下一筆資料, 如果有資料再進行判斷
+ */
+
 import java.util.Scanner;
 
 public class a004 {
+
     public static void main(String[] args) {
-		/*Scanner sc = new Scanner(System.in) ;
-		//閏年條件(二擇一成立) : 可被400整除；可被4整除但不可被100整除
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNext()) {
+               //閏年條件(二擇一成立) : 可被400整除；可被4整除但不可被100整除
 		int year1 = sc.nextInt() ;
-		int year2 = sc.nextInt() ;
                 
 		String reult1 = "" ;
 		if((year1 % 400 == 0) || (year1 % 4 ==0) && (year1 % 100 != 0)){
@@ -23,19 +26,7 @@ public class a004 {
 			reult1 = "平年" ;
 		}
                 
-                String reult2 = "" ;
-		if((year2 % 400 == 0) || (year2 % 4 ==0) && (year2 % 100 != 0)){
-			reult2 = "閏年" ;
-		}else{
-			reult2 = "平年" ;
-		}
-                
-		System.out.printf("%s\n%s",reult1, reult2) ;*/
-                
-                Scanner sc = new Scanner(System.in);
-                while (sc.hasNext()) {
-           
-            
+		System.out.printf("%s\n",reult1) ;
         }
-	}
+    }
 }
